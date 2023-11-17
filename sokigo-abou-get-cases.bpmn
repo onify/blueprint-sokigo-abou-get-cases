@@ -6,7 +6,7 @@
       <bpmn:extensionElements>
         <camunda:executionListener event="start">
           <camunda:script scriptFormat="js">environment.variables.input = {
-  serviceShortName: 'Minutserv1',
+  serviceShortName: 'SERV1',
   userIdentity: '195004112354'    
 };
 next();</camunda:script>
